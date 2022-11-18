@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Poor+Story&display=swap');
+*{
+    font-family:'Nunito Sans', sans-serif;
+    /* height: 100vh;
+    width:100vw; */
+
+}
+body{
+    background: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png');
+                            /* no-repeat right bottom fixed; */
+    background-position: 715px 220px;
+    background-repeat: no-repeat;
+    
+}
+.img{
+    height: 2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(1300px);
+}
+.container{
+    margin-left: 3%;
+}
+h1{
+    font-size: 5vh;
+    font-weight: 900;
+    text-shadow:1px 1px 3px rgb(5, 4, 4);
+}
+h3{
+    margin-top: -1em;
+    font-size: medium;
+    font-weight: 700;
+    color: grey;
+}
+.innings{
+    height: 2.5rem;
+    width: 62em;
+    color: rgb(255, 255, 255);
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+table{
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    width: 70.2em;
+    background-color: white;
+    box-shadow:0px 0.1px 1px 0px;
+    min-width: 800px;
+
+
+}
+.total-content thead tr{
+    text-align:left;
+}
+.total-content th,
+.total-content td{
+    top:0;
+    padding:10px 10px;
+    border-bottom: 0.1px solid rgb(210, 208, 208);
+    /* border-left: 1px solid gray; */
+}
+.total-content thead th,
+.total-content tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+.blue{
+    color:rgb(27, 151, 253);
+    cursor: pointer;
+}
+/* .hidden{
+    display: none;
+} */
+.img-container{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    max-width: 500px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.player-img{
+    height: 18em;
+    width:25em;
+}
+.hidden-img{
+    display:none;
+}
+.active-img{
+    display: block;
+}
+
+@media only screen and (max-width: 700px) {
+    *{
+        size: 75%;
+    }
+    /* body {
+
+        font-size: 75%;
+    } */
+}
+
+
